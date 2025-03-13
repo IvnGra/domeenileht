@@ -10,27 +10,27 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body class="d-flex flex-column vh-100">
+<body class="d-flex flex-column vh-100 ">
     <div class="container mt-5">
         <div class="row text-center">
-            <div class="col mx-4 rounded bg-success">
+            <div class="col mx-4 rounded bg-success border border-dark">
                 <h1>1</h1>
             </div>
-            <div class="col mx-4 rounded bg-secondary">
+            <div class="col mx-4 rounded bg-secondary border border-dark">
                 <h1>2</h1>
             </div>
-            <div class="col mx-4 rounded bg-secondary">
+            <div class="col mx-4 rounded bg-secondary border border-dark">
                 <h1>3</h1>
             </div>
         </div>
     </div>
-    <div class="container">
-        <select class="position-relative col-md-9 text-dark fs-2" name="eraisikVOraganisatsioon" id="eraVOrg">
+    <div class="container mt-3 mb-3 ">
+        <select class="position-relative col-md-10 text-dark fs-5 " name="eraisikVOraganisatsioon" id="eraVOrg">
             <option value="vali">Vali kas Eraisik või Organisatsioon</option>
             <option value="Eraisik">Eraisik</option>
             <option value="Organisatsioon">Organisaatsion</option>
         </select>
-        <select class="position-realtive col-md-9" name="keel" id="keel">
+        <select class="position-realtive col-md-10 fs-5" name="keel" id="keel">
             <option value="valuuta">mis perioodiks</option>
             <option value="1k">1 kuu</option>
             <option value="6k">6 kuud</option>
@@ -39,31 +39,32 @@
             <option value="10">10 aastat</option>
         </select>
         <div class="row g-2 ">
-        <input class="fs-2 col-lg-4 " type="text" placeholder="Eesnimi*">
-        <input class="fs-2 col-lg-4 " type="text" placeholder="Peerkonnanimi*">
+        <input class="fs-5 col-md-10" type="text" placeholder="Eesnimi*">
+        <input class="fs-5 col-md-10" type="text" placeholder="Peerkonnanimi*">
         </div>
-        <input class="fs-2 col-lg-9 " type="text" placeholder="Sisesta soovitud kasutajanimi*">
+        <input class="fs-5 col-md-10" type="text" placeholder="Sisesta soovitud kasutajanimi*">
         <div class="row g-3">
-        <input class="fs-2 col-lg-4 " type="password" placeholder="sisestage parooli*">
-        <input class="fs-2 col-lg-4 " type="password" placeholder="korrake parooli*">
+        <input class="fs-5 col-md-5" type="password" placeholder="sisestage parooli*">
+        <input class="fs-5 col-md-5" type="password" placeholder="korrake parooli*">
         </div>
-        <div class="position-absolute top-50 end-0 pr-5 border translate-middle-y">
+    </div>
+        <div class="position-absolute  top-50 Start- end-0 border translate-middle-y border border-dark bg-secondary ">
             <h3>Tellimus</h3>
             <p><u>domeen: *teie domeen*</u></p>
             <p>15.99€ + maksud</p>
             <p>(20.45€)</p>
         </div>
-    </div>
+    
     <div class="container d-flex justify-content-center mt-auto">
         <div class="row w-100 text-center">
             <div class="col mx-3">
                 <a href="index.html">
-                    <button class="btn  btn-lg bg-success w-100 fs-2 mb-3">Tagasi</button>
+                    <button class="btn  btn-lg bg-success w-100 fs-2 mb-3 border border-dark">Tagasi</button>
                 </a>
             </div>
             <div class="col mx-3">
                 <a href="third.html">
-                    <button class="btn  btn-lg bg-success w-100 fs-2 mb-3">Edasi</button>
+                    <button class="btn  btn-lg bg-success w-100 fs-2 mb-3 border border-dark">Edasi</button>
                 </a>
             </div>
         </div>
